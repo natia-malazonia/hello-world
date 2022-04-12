@@ -15,7 +15,7 @@ function Greeting() {
         <p className={styles.greeting}>
           {' '}
           {`<`} <span className={styles.hello}>Hello,</span>{' '}
-          <span className={styles.name}>{userName}</span> {`/`}
+          <span className={styles.name}>{userName}!</span> {`/`}
           {`>`}{' '}
         </p>
       )}
@@ -23,7 +23,7 @@ function Greeting() {
         <p className={styles.greeting}>
           {' '}
           {`<`} <span className={styles.hello}>Hello</span>{' '}
-          <span className={styles.name}>World</span> {`/`}
+          <span className={styles.name}>World!</span> {`/`}
           {`>`}{' '}
         </p>
       )}
